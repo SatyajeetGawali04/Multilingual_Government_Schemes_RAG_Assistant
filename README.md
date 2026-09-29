@@ -8,7 +8,7 @@ Built with **Streamlit**, **LangChain**, **FAISS**, **HuggingFace Embeddings**, 
 
 ## 🌟 Key Features
 
-- **🌐 Multilingual QA**: Ask questions in English, Hindi, or Marathi and receive grounded responses in your chosen target language.
+- **🌐 Multilingual QA**: Ask questions in English, Hindi, or Marathi and receive grounded responses in English, Hindi, or Marathi.
 - **📚 Official Scheme Documents Knowledge Base**: Pre-loaded with official guidelines for PM-KISAN, PMFBY, PMJDY, PMJJBY, PMKVY 4.0, PMAY Urban, NAIS, WBCIS, and SDRF/NDRF.
 - **🔍 Query Expansion & Reranking**: Intelligently expands queries with scheme-specific domain keywords and filters target PDFs for precise retrieval.
 - **📑 Source & Page-Level Citations**: Expandable accordion UI showing exact source document names, page numbers, and retrieved context chunks.

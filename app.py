@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 st.title("🏛️ Multilingual Government Scheme RAG Assistant")
-st.markdown("Ask questions in **English, Hindi, Marathi**, or other languages about official Indian government scheme guidelines.")
+st.markdown("Ask questions in **English, Hindi, Marathi**.")
 
 # Sidebar Configuration
 st.sidebar.header("⚙️ Settings & Configuration")
@@ -30,7 +30,7 @@ hf_token = st.sidebar.text_input(
 # Language Selection
 target_language = st.sidebar.selectbox(
     "🌐 Select Target Output Language",
-    ["Auto-detect", "English", "Hindi", "Marathi", "Bengali", "Tamil", "Telugu", "Kannada", "Gujarati"]
+    ["Auto-detect", "English", "Hindi", "Marathi"]
 )
 
 # Initialize Embedding Model & FAISS Vectorstore
